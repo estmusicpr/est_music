@@ -2,11 +2,13 @@ html {
     background-color: white;
     margin: 0;
     padding: 10px;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     background-color: rgb(70, 64, 89);
-    height: 100vh;
+    height: auto;
     border-radius: 15px;
 }
 
@@ -34,6 +36,10 @@ header img{
     color: rgb(70, 64, 89);
 }
 
+main {
+    padding: 100px;
+}
+
 .socials-main {
     background-color: transparent;
     justify-content: center;
@@ -55,9 +61,67 @@ header img{
 
 .socials-content a{
     text-decoration: none;
+    font-weight: normal;
     color: white;
 }
 
 .socials-content a:hover {
     text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+.album-link {
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: transparent;
+    height: 400px;
+}
+
+.album-link:hover {
+    transform: scale(1.07);
+    /* opacity: 50%; */
+}
+
+.content-main {
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    margin: 80px;
+}
+
+.element-main {
+    border: 2px;
+    border: solid white;
+    border-radius: 15px;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+}
+
+.element-main-img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+
+
+
+
+
+
+footer {
+    padding: 30px;
+}
+
+.copyright-text {
+    color: white;
 }

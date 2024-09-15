@@ -1,10 +1,13 @@
 html {
+    background-color: white;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 
 body {
     background-color: rgb(70, 64, 89);
+    height: 100vh;
+    border-radius: 15px;
 }
 
 header {
@@ -25,6 +28,12 @@ header img{
     font-size: medium;
 }
 
+.nav-button:hover {
+    transform: scale(1.03);
+    background-color: white;
+    color: rgb(70, 64, 89);
+}
+
 .socials-main {
     background-color: transparent;
     justify-content: center;
@@ -41,6 +50,7 @@ header img{
     background-color: transparent;
     margin: 0 auto;
     text-align: center;
+    font-size: larger;
 }
 
 .socials-content a{
